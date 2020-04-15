@@ -1,0 +1,10 @@
+[run]
+branch = True
+omit = *migrations*,
+       *urls*,
+       *test*,
+       *admin*,
+       ./manage.py,
+       ./bulletin_board/config/*,
+       ./bulletin_board/wsgi.py,
+       *__init__*
